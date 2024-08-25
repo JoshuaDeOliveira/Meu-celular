@@ -15,6 +15,22 @@ main{
     height: 100vh;
 }
 
+#Telefone{
+    width: 311px;
+    height: 627px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+#Redes{
+    height: 500px;
+    width: 100px;
+}
+
 .Celular{
     display: flex;
     justify-content: center;
@@ -31,4 +47,11 @@ iframe{
     width: 270px;
 
     transform: translate(-50%, -50%);
+}
+
+a > img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    display: block;
 }
