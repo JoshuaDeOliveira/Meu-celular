@@ -28,14 +28,15 @@ main{
 
 #Redes{
     height: 500px;
-    width: 100px;
+    width: 70px;
 }
 
 .Celular{
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative
+    position: relative;
+    margin: 10px;
 }
 
 iframe{
@@ -49,12 +50,20 @@ iframe{
     transform: translate(-50%, -50%);
 }
 
+#Redes{
+    text-align: right;
+}
+
 a > img{
     border-radius: 50%;
-    height: 100px;
-    width: 100px;
-    display: block;
+    height: 55px;
+    width: 55px;
     padding: 5px;
+    margin-top: 5px;
+}
 
-    text-align: left;
+a > img:hover{
+    border: 2px solid white;
+    transform: translate(-2px, -3px);
+    transition: transform 0.5s;
 }
